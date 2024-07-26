@@ -1,0 +1,5 @@
+f = open("test.txt",'a')
+f.write("Live a life of purpose.\n")
+f.write("When the going gets tough, the tough get going.\n")
+print("More data appended to the file")
+f.close()

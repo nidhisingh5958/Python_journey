@@ -1,0 +1,7 @@
+f = open ("test.txt",'w+')
+print ("File Name:    ", f .name)
+print ("File Mode:    ", f .mode)
+print ("File Encoding:    ", f .encoding)
+print ("Is File closed:    ", f .closed)
+f.close()
+print("Is File closed:    ",f .closed)
